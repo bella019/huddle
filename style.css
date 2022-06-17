@@ -1,0 +1,320 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/******************
+      Header
+******************/
+header {
+	background-image: url(img/bg-hero-desktop.svg);
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+	height: 50px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 30px;
+	/*	padding: 5px;*/
+}
+
+.free {
+	height: 30px;
+	width: 120px;
+	color: #000;
+	background-color: #fff;
+	border-radius: 15px;
+	border: 10px solid #fff;
+	margin-left: 900px;
+	text-align: center;
+	margin-top: 30px;
+	box-shadow: 2px 2px 2px 2px hsl(208, 11%, 55%);
+	padding: 0;
+}
+
+header > h2 {
+	margin-left: 80px;
+	margin-top: 120px;
+}
+
+header > p {
+	margin-left: 80px;
+	margin-top: 10px;
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+.start {
+	margin-left: 50px;
+	margin-top: 25px;
+	height: 60px;
+	width: 200px;
+	font-size: 10px;
+	text-align: center;
+	color: #fff;
+	background-color: hsl(322, 100%, 66%);
+	border-radius: 25px;
+	border: 10px solid #fff;
+}
+
+.mockup {
+	height: 500px;
+	width: 600px;
+	margin-left: 50px;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-top: 50px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+/*****************
+		Body
+*******************/
+.grow {
+	width: 1200px;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	border-radius: 25px;
+	border: 10px solid #fff;
+	box-shadow: 5px 5px 5px 5px hsl(208, 11%, 55%);
+	margin: auto;
+	margin-top: 20px;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.grow > img {
+	width: 500px;
+	height: 300px;
+	margin-left: 250px;
+}
+
+.growth > h4 {
+	font-size: 20px;
+	margin-left: 80px;
+}
+
+.growth > p {
+	font-size: 12px;
+	color: hsl(208, 11%, 55%);
+	margin-top: 10px;
+	margin-left: 80px;
+}
+
+.flow {
+	width: 1200px;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	border-radius: 25px;
+	border: 10px solid #fff;
+	box-shadow: 5px 5px 5px 5px hsl(208, 11%, 55%);
+	margin: auto;
+	margin-top: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.flow > img {
+	width: 500px;
+	height: 280px;
+}
+
+.flowing > h4 {
+	font-size: 20px;
+	margin-left: 300px;
+}
+
+.flowing > p {
+	font-size: 12px;
+	color: hsl(208, 11%, 55%);
+	margin-top: 10px;
+	margin-left: 280px;
+}
+
+.user {
+	width: 1200px;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	border-radius: 25px;
+	border: 10px solid #fff;
+	box-shadow: 5px 5px 5px 5px hsl(208, 11%, 55%);
+	margin: auto;
+	margin-top: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.user > img {
+	width: 500px;
+	height: 300px;
+	margin-left: 250px;
+}
+
+.users > h4 {
+	font-size: 20px;
+	margin-left: 80px;
+}
+
+.users > p {
+	font-size: 12px;
+	color: hsl(208, 11%, 55%);
+	margin-top: 10px;
+	margin-left: 80px;
+}
+
+.ready {
+	width: 500px;
+	height: 140px;
+	background-color: #fff;
+	margin-left: 400px;
+	border-radius: 15px;
+	border: 10px solid #fff;
+	box-shadow: 2px 2px 2px 2px hsl(208, 11%, 55%);
+	margin: auto;
+	text-align: center;
+	z-index: 9;
+	position: sticky;
+	margin-bottom: -20px;
+	margin-top: 50px;
+}
+
+.ready > button {
+	margin-top: 25px;
+	height: 60px;
+	width: 200px;
+	text-align: center;
+	color: #fff;
+	background-color: hsl(322, 100%, 66%);
+	border-radius: 25px;
+	border: 10px solid #fff;
+}
+
+/****************
+      Footer
+****************/
+footer {
+	height: 50vh;
+	width: 100%;
+	background-color: hsl(192, 100%, 9%);
+	display: flex;
+}
+
+.foot > img {
+	filter: brightness(0) invert(1);
+	fill: hsl(193, 100%, 96%);
+	margin-top: 60px;
+	margin-left: 50px;
+	width: 200px;
+}
+
+.foot > p {
+	color: hsl(193, 100%, 96%);
+	margin-left: 50px;
+	line-height: 25px;
+	font-size: 15px;
+}
+
+.questions {
+	margin-top: 120px;
+	display: flex
+}
+
+.links > a {
+	text-decoration: none;
+	color: hsl(193, 100%, 96%);
+	text-transform: capitalize;
+	font-size: 15px;
+	display: block;
+	line-height: 35px;
+	margin-left: 150px;
+}
+
+.link > a {
+	text-decoration: none;
+	color: hsl(193, 100%, 96%);
+	text-transform: capitalize;
+	font-size: 15px;
+	display: block;
+	line-height: 35px;
+	margin-left: 100px;
+}
+
+.copy {
+	margin-top: 280px;
+	margin-left: 200px;
+	color: hsl(193, 100%, 96%);
+	font-size: 12px;
+}
+
+button:active {
+	cursor: pointer;
+}
+
+/***************
+	Media Query
+***************/
+
+@media screen and (max-width: 375px) {
+	body {
+		margin: 0;
+	}
+	main{
+		width: 100%;
+	}
+
+	header {
+		background-image: url(img/bg-hero-mobile.svg);
+		width: inherit;
+		height: inherit;
+		margin: auto;
+		display: flex;
+	}
+
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.logo {
+		margin-top: 80px;
+	}
+
+	.free {
+		margin-top: 75px;
+/*	    margin-right: 250px;*/
+		position:absolute;
+	
+	}
+	.head{
+		padding-left: 90px;
+		margin-top: 150px;
+		margin-bottom: 15px;
+		font-size: 50px;
+	}
+	.text>p{
+		text-align: center;
+		padding-left: 80px;
+		padding-right: 80px;
+		font-size: 25px;
+	}
+}
